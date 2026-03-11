@@ -57,6 +57,7 @@ struct ServiceDetailView: View {
             .frame(height: 160)
             .cornerRadius(14)
             .padding(.horizontal)
+            .padding(.top,5)
             
             VStack(alignment: .leading, spacing: 20) {
                 
