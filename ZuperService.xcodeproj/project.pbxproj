@@ -40,6 +40,11 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		DDF3FC012F623C5D0018EB7D /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 		DD847AF62F621B4F00F3C403 = {
 			isa = PBXGroup;
 			children = (
+				DDF3FC012F623C5D0018EB7D /* Models */,
 				DD847B102F621BAA00F3C403 /* Utilities */,
 				DD847B0F2F621B8300F3C403 /* Components */,
 				DD847B0E2F621B7300F3C403 /* ViewModels */,
@@ -95,6 +101,7 @@
 				DD847B0E2F621B7300F3C403 /* ViewModels */,
 				DD847B0F2F621B8300F3C403 /* Components */,
 				DD847B102F621BAA00F3C403 /* Utilities */,
+				DDF3FC012F623C5D0018EB7D /* Models */,
 			);
 			name = ZuperService;
 			packageProductDependencies = (

@@ -39,10 +39,9 @@ struct ServiceDetailView: View {
         
         ScrollView {
             
-            Map(coordinateRegion: $region, annotationItems: [service]) { _ in
-                
-                MapAnnotation(coordinate: coordinate) {
-                    
+
+            Map(coordinateRegion: $region, annotationItems: [MapLocation(coordinate: coordinate)]){ item in
+                MapAnnotation(coordinate: item.coordinate) {
                     Image("pin")
                         .renderingMode(.template)
                         .resizable()
@@ -113,11 +112,5 @@ struct ServiceDetailView: View {
         
     }
 }
-
-
-
-
-
-
 
 

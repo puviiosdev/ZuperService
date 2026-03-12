@@ -30,7 +30,6 @@ class ServicesViewModel: ObservableObject {
 
     func loadServices() async {
       
-
         let data = SampleData.generateServices()
         self.services = data
         self.filteredServices = data
